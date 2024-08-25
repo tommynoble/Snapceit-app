@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Loader from './components/Loader';
 
+
 // Lazy load the page components
 const Home = lazy(() => import('./pages/Home'));
 const ScanReceipt = lazy(() => import('./pages/ScanReceipt'));
